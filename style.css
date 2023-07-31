@@ -12,12 +12,32 @@ background-color: #CFC4C4;
                 background-position: center 50%;
 }
 
-.green{
+.green {
     width: 300px;
+    padding: 22px;
+    padding-top: 55px;
+    max-width: 50%;
+box-shadow: -28px 3px 20px rgba(15, 15, 15, 0.2);
+}
+.greens{
+color: white;
+font-family: 'Julius Sans One', sans-serif;
+margin-left: 333px;
+margin-top: -299px;
+font-size: 22px;
+padding: 15px
 }
 
 
 h1{
 font-family: 'Julius Sans One', sans-serif;
 color: white;
+}
+h2{
+padding-top: 66px;
+font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 44px;
+
 }
