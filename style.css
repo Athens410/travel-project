@@ -1,0 +1,23 @@
+body{
+
+background-color: #CFC4C4;
+    
+
+}
+.headers{
+
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(img/first.jpg);
+    background-position: center 50%;
+    background-size: cover;
+    padding: 55px;
+}
+
+
+
+
+h1{
+font-family: 'Julius Sans One', sans-serif;
+color: white;
+}
