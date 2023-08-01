@@ -43,17 +43,26 @@ font-family: 'Julius Sans One', sans-serif;
 }
 .video{
 
-    background-color: aqua;
+   border-radius: 15px;
     width: 200px;
     height: 200px;
     margin: 0 auto;
     padding: 10px;
     max-width: 100%;
-
+    
+font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    font-size: 10px;
 }
 .red{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     
+}
+.ham{
+    display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: aqua;
 }
