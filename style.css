@@ -11,6 +11,16 @@ background-color: #CFC4C4;
             padding: 55px;
                 background-position: center 50%;
 }
+@media screen and (max-width: 768px) {
+    .headers {
+        padding: 35px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .headers {
+        padding: 25px;
+    }
+}
 
 .green {
     width: 300px;
