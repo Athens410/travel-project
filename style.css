@@ -217,4 +217,32 @@ h3 {
     .max {
         padding: var(--padding-medium);
     }
+    
+
+ 
+
 }
+
+
+
+
+
+
+
+ .grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     grid-gap: 20px;
+     justify-content: center;
+     margin: 0 20px;
+ }
+
+.instagram-media {
+    max-width: 100%;
+    width: 100%;
+}
+ @media (max-width: 500px) {
+     .instagram-media {
+         min-width: 100%;
+     }
+ }
