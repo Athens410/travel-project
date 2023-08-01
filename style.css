@@ -101,21 +101,65 @@ justify-content: center;
 
 .max{
 text-decoration: none;
+    background-size: cover;
+        text-align: center;
+        padding: 55px;
+        background-position: center 50%;
     
-    margin-top: 40px;
+    margin-top: 44px;
     background-image: url(img/palm.jpg);
+  
 }
 h3{
     font-family: 'Julius Sans One', sans-serif;
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 22px;
         padding: 15px;
         text-decoration: none;
+        margin-right: -555px;
+        display: grid;
+            grid-gap: 15px;
+            grid-template-columns: 1fr  ;
+}
+.mind h3{
+margin-left: 77px;
+margin-top: -33px;
+
+
 }
 .rye h4{
     font-family: 'Julius Sans One', sans-serif;
-        color: rgb(255, 255, 255);
+       
         font-size: 16px;
-        padding: 15px;
+       padding: 10px;
+        text-decoration: none ;
+        color: rgb(255, 255, 255);
+        margin-left: 555px;
+        max-width: 50%;
+        margin-bottom: 22px;
+        padding-bottom: 33px;
+}
+
+.ryes{
+
+  
+display: grid;
+    grid-gap: 15px;
+   margin-right: 599px;
+   margin-top: -222px;
+   
+
+}
+
+.ryes h4{
+    font-family: 'Julius Sans One', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       margin-top: -33px;
         text-decoration: none;
+     
+}
+.ryes h3{
+margin-right: 22px;
+margin-top: -77px;
 }
