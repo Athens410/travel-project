@@ -82,15 +82,18 @@ background: linear-gradient(113.1deg, rgb(254, 140, 48) 14%, rgb(253, 75, 101) 8
 .photo{
 display: grid;
     grid-gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 400px 200px 300px;
 margin-top: 88px;
+max-width: 100%;
+justify-content: center;
+
+
 }
 
 .photos{
 
     border-radius: 15px;
-        width: 200px;
-        height: 200px;
+       
         margin: 0 auto;
         padding: 10px;
         max-width: 100%;
