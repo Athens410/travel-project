@@ -223,7 +223,12 @@ h3 {
 
 }
 
-
+.rue {
+    font-size: small;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #ffff;
+}
 
 
 
@@ -235,7 +240,8 @@ h3 {
      grid-gap: 20px;
     align-items: center;
      margin: 0 20px;
-     margin-left: 177px;
+     margin-left: 122px;
+     padding: 12px;
    
  }
 
