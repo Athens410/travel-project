@@ -79,24 +79,27 @@ button:hover {
 background: linear-gradient(113.1deg, rgb(254, 140, 48) 14%, rgb(253, 75, 101) 80.5%, rgb(255, 53, 109) 100.6%);
 
 }
-.photo{
-display: grid;
+.photo {
+    display: grid;
     grid-gap: 15px;
-    grid-template-columns: 400px 200px 300px;
-margin-top: 88px;
-max-width: 100%;
-justify-content: center;
-
-
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 88px;
+    max-width: 100%;
+    justify-content: center;
 }
 
-.photos{
-
+.photos {
     border-radius: 15px;
-       
-        margin: 0 auto;
-        padding: 10px;
-        max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 100%;
+}
+
+/* Add a media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .photo {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
 }
 
 /* CSS */
