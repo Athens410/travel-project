@@ -71,25 +71,35 @@ font-family: 'Julius Sans One', sans-serif;
     font-size: 44px;
 
 }
-.video{
-
-   border-radius: 15px;
-    width: 200px;
-    height: 200px;
+.video {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 200px;
     margin: 0 auto;
     padding: 10px;
-    max-width: 100%;
-    
-font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     color: white;
     font-size: 10px;
 }
-.red{
+
+.red {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+@media screen and (max-width: 768px) {
+    .red {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}
+@media screen and (max-width: 480px) {
+    .red {
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    }
+}
+
+
 .ham{
     display: grid;
         grid-gap: 15px;
