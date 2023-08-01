@@ -77,4 +77,21 @@ button{
 
 button:hover {
 background: linear-gradient(113.1deg, rgb(254, 140, 48) 14%, rgb(253, 75, 101) 80.5%, rgb(255, 53, 109) 100.6%);
+
+}
+.photo{
+display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+margin-top: 88px;
+}
+
+.photos{
+
+    border-radius: 15px;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        padding: 10px;
+        max-width: 100%;
 }
