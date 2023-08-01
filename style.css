@@ -64,5 +64,17 @@ font-family: 'Julius Sans One', sans-serif;
     display: grid;
         grid-gap: 15px;
         grid-template-columns: 1fr 1fr 1fr;
-        background-color: aqua;
+       
+}
+button{
+    margin: 10px;
+    padding: 7px;
+    border: 5px ;
+    border-radius: 5px ;
+    background-color: rgb(124, 50, 120);
+    color: white;
+}
+
+button:hover {
+background: linear-gradient(113.1deg, rgb(254, 140, 48) 14%, rgb(253, 75, 101) 80.5%, rgb(255, 53, 109) 100.6%);
 }
